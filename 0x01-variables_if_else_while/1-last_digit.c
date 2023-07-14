@@ -6,7 +6,7 @@
 
 
 /**
- * main - prints a text according number 
+ * main - Prints a text according number 
  * Return: Always (Success)
  *
  */
@@ -27,9 +27,9 @@ int main(void)
 	}
 	else if (lastd == 0)
 	{
-	printf("Last digit of %d is %D and is 0\n", n, Lastd);
+	printf("Last digit of %d is %d and is 0\n", n, Lastd);
 	}
-	else if (Lastd < && Lastd != 0)
+	else if (Lastd < 6 && Lastd != 0)
 	{
 	printf("Last digit of %d is %d and is less than 6 and not 0\n", n,Lastd);
 	}
