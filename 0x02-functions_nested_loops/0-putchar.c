@@ -1,0 +1,2 @@
+putchar(c);
+putchar('\n');
