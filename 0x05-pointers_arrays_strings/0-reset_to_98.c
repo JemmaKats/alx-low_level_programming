@@ -5,6 +5,7 @@ void reset_to_98(int *);
 /* Takes pointer to int
  * update the value point to 98
  */
+int main(void)
 
 int n;
 
