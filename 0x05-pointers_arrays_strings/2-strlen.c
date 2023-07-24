@@ -4,6 +4,7 @@
 /**
  * main - check the code
  *@s: string
+ *_strlen - lenth of string returned
  * Return: Always 0.
  */
 
