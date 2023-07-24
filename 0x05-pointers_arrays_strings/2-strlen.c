@@ -5,7 +5,7 @@
  * main - check the code
  *@s: string
  *_strlen - lenth of string returned
- * Return: Always 0.
+ * Return: length
  */
 
 int _strlen(char *s)
