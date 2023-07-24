@@ -4,11 +4,11 @@
 /**
  * main - check the code
  *@s: string
- *_strlen - lenth of string returned
+ *_strlen - returns lenth of string
  * Return: length
  */
 
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int longi = 0;
 
