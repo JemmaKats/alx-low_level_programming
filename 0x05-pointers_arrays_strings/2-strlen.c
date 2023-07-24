@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *@s: string
  * Return: Always 0.
  */
 
