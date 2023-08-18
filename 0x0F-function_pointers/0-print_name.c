@@ -1,21 +1,16 @@
-#include <stdio.h>
+#include "function_pointers.h"
+	#include <stdio.h>
+	/**
+	 * print_name - print name using pointer to function
+	 * @name: string to add
+	 * @f: pointer to function
+	 * Return: nothing
+	 **/
+	void print_name(char *name, void (*f)(char *))
+	{
+	if (name == NULL || f == NULL)
+		return;
 
-void print_name(char *name, void (*f)(char *))
-{
-    f(name);
-}
 
-void print_name_upper(char *name)
-{
-    int i;
-
-    for (i = 0; name[i]; i++)
-        printf("%c", name[i] >= 'a' && name[i] <= 'z' ? name[i] - 32 : name[i]);
-    printf("\n");
-}
-
-int main(void)
-{
-    print_name("Betty", print_name_upper);
-    return (0);
+	f(name);
 }
